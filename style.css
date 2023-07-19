@@ -1,43 +1,42 @@
 body {
-    background-color: rgb(70, 142, 236);
-    font: normal 15pt Arial;
-    color: white;
+  background-color: rgb(70, 142, 236);
+  font: normal 15pt Arial;
+  color: white;
 }
 
 header {
-    text-align: center;
+  text-align: center;
 }
 
 section {
-    background-color: white;
-    color: black;
-    border-radius: 10px;
-    padding: 15px;
-    width: 500px;
-    min-height: 200px;
-    height: auto;
-    margin: auto;
-    text-align: left;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  min-height: 200px;
+  height: auto;
+  margin: auto;
+  text-align: left;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);
 }
 
 footer {
-    text-align: center;
-    font-style: italic;
+  text-align: center;
+  font-style: italic;
 }
 input {
-    font: normal 12pt Arial;
+  font: normal 12pt Arial;
 }
 div#res h1 {
-    font: bold 20pt Arial;
-    align-items: center;
-    padding: 30px;
-    text-align: center;
+  font: bold 20pt Arial;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
 }
 .res-h1 {
-    font: bold 20pt Arial;
-    align-items: center;
-    padding: 30px;
-    text-align: center;
+  font: bold 20pt Arial;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
 }
- 
