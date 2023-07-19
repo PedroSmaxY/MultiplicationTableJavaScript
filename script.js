@@ -1,4 +1,4 @@
-function gerarTabuada() {
+function gerar() {
   let numero = window.document.querySelector("input#txtnumero").valueAsNumber;
   let res = window.document.querySelector("div#res ul");
   let h1 = window.document.querySelector("div#res h1");
