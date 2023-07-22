@@ -25,15 +25,12 @@ footer {
   text-align: center;
   font-style: italic;
 }
+
 input {
   font: normal 12pt Arial;
 }
-div#res h1 {
-  font: bold 20pt Arial;
-  align-items: center;
-  padding: 30px;
-  text-align: center;
-}
+
+div#res h1,
 .res-h1 {
   font: bold 20pt Arial;
   align-items: center;

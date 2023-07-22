@@ -1,24 +1,24 @@
-function gerar() {
-  let numero = window.document.querySelector("input#txtnumero").valueAsNumber;
-  let res = window.document.querySelector("div#res ul");
+function generate() {
+  let number = window.document.querySelector("input#txtnumber").valueAsNumber;
+  let result = window.document.querySelector("div#res ul");
   let h1 = window.document.querySelector("div#res h1");
-  res.innerHTML = "";
+  result.innerHTML = "";
 
   if (h1) {
     h1.remove();
   }
 
-  if (!numero && numero !== 0) {
+  if (!number && number !== 0) {
     h1 = document.createElement("h1");
     h1.classList.add("res-h1");
-    h1.textContent = "Digite um número acima e veja sua tabuada!";
-    res.parentNode.insertBefore(h1, res);
-    window.alert("[ERRO] Número Inválido!!!");
+    h1.textContent = "Enter a number above to see its multiplication table!";
+    result.parentNode.insertBefore(h1, result);
+    window.alert("[ERROR] Invalid Number!");
   } else {
     for (let index = 1; index <= 10; index++) {
       let item = document.createElement("li");
-      item.textContent = `${numero} x ${index} = ${numero * index}`;
-      res.appendChild(item);
+      item.textContent = `${number} x ${index} = ${number * index}`;
+      result.appendChild(item);
     }
   }
 }
